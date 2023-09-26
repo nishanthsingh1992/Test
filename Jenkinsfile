@@ -5,14 +5,12 @@ pipeline {
         stage('Dependencies') {
             steps {
                 echo 'Fetching dependencies...'
-		echo 'Dependencies - NIL'
                             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                echo 'Tests - NIL'
             }
         }
 
@@ -31,14 +29,12 @@ pipeline {
         stage('Package') {
             steps {
                 echo 'Packaging the binary...'
-                echo 'Nothing available'
             }
         }
 
         stage('Cleanup') {
             steps {
                 echo 'Cleaning up...'
-                sh 'make clean'
             }
         }
     }
