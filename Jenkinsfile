@@ -34,14 +34,13 @@ pipeline {
                 
             }
         }
-    }
+
         
-        }
     }
 
     post {
         always {
-            echo 'This will always run and is successful'
+            echo 'This will always run'
         }
         success {
             echo 'Pipeline completed successfully!'
@@ -51,4 +50,3 @@ pipeline {
         }
     }
 }
-
