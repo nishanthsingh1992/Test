@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Dependencies') {
             steps {
-                echo 'Fetching dependencies...'
+                echo 'Fetching dependencies..'
                 
             }
         }
