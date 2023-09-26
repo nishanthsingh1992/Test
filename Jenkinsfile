@@ -17,7 +17,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the binary...'
-                echo 'Build - NIL'
                 }
             }
         }
@@ -51,4 +50,3 @@ pipeline {
         }
     }
 }
-
